@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="content">
+            <div class="searchBar">
+                <input id="input" type="text" placeholder="Enter the city or state" spellcheck="false"></input>
+                <button id="search" class="fa-solid fa-magnifying-glass"></button>
+            </div>
+
+            <div class="error">
+                <h3>City or State does not exists!!!</h3>
+                <img src="error.png" width="300px" height="300px">
+            </div>
+
+            <div class="weatherbody">
+            
+                <div class="upper">
+
+                    <div class="type">
+                        <div id="icon">                           
+                        </div>
+                        <h3 id = "desc">Windy</h3>
+                    </div>
+                    
+                    <div class="sub">
+                        <h1 id = "temp">0°C</h1><br>
+                        <p id = "feels_like">Feels like 10°C</p>
+                    </div>
+
+                </div>
+                
+                <h2 id="city">New York</h2>
+                
+                
+                
+                <div class="lower">
+                    <div class="col">
+                        <i class="fa-solid fa-droplet fa-2x"></i>
+                        <div>
+                            <h4 id="humidity">50%</h4>
+                            <h4>Humidity</h4>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <i class="fa-sharp fa-solid fa-wind fa-2x"></i>
+                        <div>
+                            <h4 id="speed">15km/hr</h4>
+                            <h4>Wind Speed</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: black;
+}
+.wrapper{
+    margin: 100px auto 0;
+}
+.content{
+    background: linear-gradient(120deg, #90edd1, #17058d);
+    color: #fff;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBar input{
+    padding: 10px 25px;
+    border-radius: 27px;
+    font-size: 18px;
+    height: 60px;
+    background: #e6f5fb;
+    border:0;
+    margin-right: 15px;
+}
+.searchBar button{
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(118, 194, 194, 0.5);;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+}
+
+.error{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.weatherbody{
+    display: none;
+}
+
+
+
+.upper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8%;
+    margin-bottom: 35px;
+}
+.type{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+#icon{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.sub h1{
+    margin-top: 35px;
+    font-size: 55px;
+}
+
+
+
+.lower{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+#col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
